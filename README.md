@@ -39,6 +39,9 @@ README.md		docker-compose.yml	sql
 ``` 
 
 ## ③コンテナを起動と確認
+
+コンテナを起動
+
 ```bash
  % docker compose up -d
 [+] Building 81.5s (8/9)                             
@@ -50,6 +53,8 @@ README.md		docker-compose.yml	sql
  => [1/4] FROM docker.io/library/mysql:8.0-debian@sha256:6d49fc540dac155 76.9s
 ...
 ``` 
+コンテナを確認
+
 ```bash
  % docker ps  
 CONTAINER ID  IMAGE           COMMAND         CREATED     STATUS     PORTS                NAMES
